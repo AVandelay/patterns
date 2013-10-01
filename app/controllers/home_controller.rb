@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   before_action :header
 
   def index
-    @message = "This is a messagr from the controller"
+    @message = "This is a message from the controller"
     render :index
   end
 
